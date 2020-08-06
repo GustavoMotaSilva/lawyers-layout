@@ -16,6 +16,7 @@ body {
     font-size: 100%;
     min-height: 100vh;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -242,7 +243,7 @@ a {
     color: #000;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 800px) {
     .menu {
         justify-content: flex-start;
         position: static;
@@ -314,7 +315,7 @@ a {
     transform: translate3d(-50%, 0, 0) rotate(-45deg);
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 800px) {
     .hamburger {
         display: none;
     }
