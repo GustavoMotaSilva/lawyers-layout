@@ -40,13 +40,13 @@
                 </svg>
             </a>
 
-            <button class="hamburger is-active">
+            <button class="hamburger">
                 <span class="item"></span>
                 <span class="item"></span>
                 <span class="item"></span>
             </button>
 
-            <ul class="menu" aria-expanded="true">
+            <ul class="menu" aria-expanded="false">
                 <li class="item">
                     <a href="#" class="link">Home</a>
                 </li>
@@ -90,10 +90,7 @@
                     </div>
 
                     <div>
-                        <div
-                            class="auto-grid"
-                            style="--flow: 0.5em; --auto-grid-gap: 2rem;"
-                        >
+                        <div class="auto-grid" style="--flow: 0.5em;">
                             <div id="copy-card" class="card flow">
                                 <i class="icon fas fa-briefcase"></i>
                                 <h2 class="heading">Direito admnistrativo</h2>
@@ -152,15 +149,215 @@
                 </div>
             </section>
 
-            <!-- <section id="lawyers" class="section"></section> -->
-            <!-- <section id="contact" class="section"></section> -->
+            <section id="lawyers" class="section">
+                <div class="container flow">
+                    <h2 class="heading">Nossos advogados</h2>
+
+                    <div class="auto-grid">
+                        <div class="card flow">
+                            <img
+                                src="./lawyers/lawyer-1.jpg"
+                                alt=""
+                                class="image"
+                            />
+                            <h3 class="heading">João Lima</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Officia, explicabo!
+                            </p>
+
+                            <footer class="social">
+                                <a href="#" class="icon">
+                                    <i class="image fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="icon">
+                                    <i class="image fab fa-facebook-f"></i>
+                                </a>
+
+                                <a href="#" class="icon">
+                                    <i class="image fas fa-at"></i>
+                                </a>
+                            </footer>
+                        </div>
+
+                        <div class="card flow">
+                            <img
+                                src="./lawyers/lawyer-2.jpg"
+                                alt=""
+                                class="image"
+                            />
+                            <h3 class="heading">Sara Rocha</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Officia, explicabo!
+                            </p>
+
+                            <footer class="social">
+                                <a href="#" class="icon">
+                                    <i class="image fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="icon">
+                                    <i class="image fab fa-facebook-f"></i>
+                                </a>
+
+                                <a href="#" class="icon">
+                                    <i class="image fas fa-at"></i>
+                                </a>
+                            </footer>
+                        </div>
+
+                        <div class="card flow">
+                            <img
+                                src="./lawyers/lawyer-3.jpg"
+                                alt=""
+                                class="image"
+                            />
+                            <h3 class="heading">Pedro Barbosa</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Officia, explicabo!
+                            </p>
+
+                            <footer class="social">
+                                <a href="#" class="icon">
+                                    <i class="image fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="icon">
+                                    <i class="image fab fa-facebook-f"></i>
+                                </a>
+
+                                <a href="#" class="icon">
+                                    <i class="image fas fa-at"></i>
+                                </a>
+                            </footer>
+                        </div>
+
+                        <div class="card flow">
+                            <img
+                                src="./lawyers/lawyer-4.jpg"
+                                alt=""
+                                class="image"
+                            />
+                            <h3 class="heading">Suzana Silva</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Officia, explicabo!
+                            </p>
+
+                            <footer class="social">
+                                <a href="#" class="icon">
+                                    <i class="image fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="icon">
+                                    <i class="image fab fa-facebook-f"></i>
+                                </a>
+
+                                <a href="#" class="icon">
+                                    <i class="image fas fa-at"></i>
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="container">
+                    <div class="media">
+                        <div class="start flow">
+                            <h2 class="heading">Contato</h2>
+
+                            <ul class="social-list">
+                                <li class="item">
+                                    <a href="#" class="icon">
+                                        <i class="image fas fa-phone-alt"></i>
+                                        +55 (11) 99999-9999
+                                    </a>
+                                </li>
+
+                                <li class="item">
+                                    <a href="#" class="icon">
+                                        <i class="image fab fa-linkedin-in"></i>
+                                        Lawyers-In
+                                    </a>
+                                </li>
+
+                                <li class="item">
+                                    <a href="#" class="icon">
+                                        <i class="image fab fa-facebook-f"></i>
+                                        Lawyers
+                                    </a>
+                                </li>
+
+                                <li class="item">
+                                    <a href="#" class="icon">
+                                        <i class="image fas fa-at"></i>
+                                        lawyers.contact@email.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="end">
+                            <form method="POST" class="card -outline">
+                                <div class="flow" style="--flow: 1rem;">
+                                    <h2 class="heading -small">
+                                        Deixe uma mensagem para nós
+                                    </h2>
+                                    <div class="field">
+                                        <label for="name" class="label"
+                                            >Nome</label
+                                        >
+                                        <input
+                                            id="name"
+                                            name="name"
+                                            type="text"
+                                            class="input"
+                                        />
+                                    </div>
+
+                                    <div class="field">
+                                        <label for="email" class="label"
+                                            >E-mail</label
+                                        >
+                                        <input
+                                            id="email"
+                                            name="email"
+                                            type="email"
+                                            class="input"
+                                        />
+                                    </div>
+
+                                    <div class="field">
+                                        <label for="name" class="label"
+                                            >Mensagem</label
+                                        >
+
+                                        <textarea
+                                            id="message"
+                                            name="message"
+                                            class="input"
+                                            cols="30"
+                                            rows="5"
+                                        ></textarea>
+                                    </div>
+
+                                    <button class="button">
+                                        Enviar mensagem
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <footer class="footer">
             <div class="container">
                 <div class="content">
                     <a href="#" class="icon">
-                        <i class="image fab fa-instagram"></i>
+                        <i class="image fab fa-linkedin-in"></i>
                     </a>
 
                     <a href="#" class="icon">
