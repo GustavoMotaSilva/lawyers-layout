@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>layers</title>
+        <title>lawyers</title>
         <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
         <script
             defer
             src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"
@@ -63,11 +63,11 @@
 
         <header
             class="cover -hero banner"
-            style="background-image: url('./banner-gray.jpg');"
+            style="background-image: url('./assets/images/banner-gray.jpg')"
         >
-            <div style="margin-bottom: 128px;"></div>
+            <div style="margin-bottom: 128px"></div>
             <div class="content container">
-                <div class="headline flow" style="--flow: 2em;">
+                <div class="headline flow" style="--flow: 2em">
                     <h1 class="heading">
                         Ganhando seu caso <br />com justiça <br />
                         e honestidade
@@ -83,17 +83,122 @@
 
         <main>
             <section id="services" class="section">
-                <div class="container flow" style="--flow: 2em;">
+                <div class="container flow" style="--flow: 2em">
                     <div>
                         <h2 class="heading -center">Nossas áreas de atuação</h2>
                         <div class="divider"></div>
                     </div>
 
                     <div>
-                        <div class="auto-grid" style="--flow: 0.5em;">
-                            <div id="copy-card" class="card flow">
-                                <i class="icon fas fa-briefcase"></i>
+                        <!--
+                        card(
+                            '',
+                            'Direito tributário',
+                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
+                        ),
+                        -->
+                        <div class="auto-grid" style="--flow: 0.5em">
+                            <div class="card flow">
+                                <span class="icon fas fa-briefcase"></span>
                                 <h2 class="heading">Direito admnistrativo</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span
+                                    class="icon fas fa-balance-scale-right"
+                                ></span>
+                                <h2 class="heading">
+                                    Direito cívil e consumidor
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span class="icon fas fa-balance-scale"></span>
+                                <h2 class="heading">Direito comercial</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span class="icon fas fa-restroom"></span>
+                                <h2 class="heading">Direito de família</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span class="icon fas fa-home"></span>
+                                <h2 class="heading">Direito imobiliário</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span class="icon fas fa-address-card"></span>
+                                <h2 class="heading">Direito eleitoral</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span class="icon fas fa-laptop"></span>
+                                <h2 class="heading">Direito virtual</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span class="icon fas fa-gavel"></span>
+                                <h2 class="heading">Direito penal</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span class="icon fas fa-building"></span>
+                                <h2 class="heading">
+                                    Direito do trabalho e previdenciário
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span class="icon fas fa-brain"></span>
+                                <h2 class="heading">
+                                    Direito propriedade intelectual
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Officia, soluta!
+                                </p>
+                            </div>
+
+                            <div class="card flow">
+                                <span class="icon fas fa-dollar-sign"></span>
+                                <h2 class="heading">Direito tributário</h2>
                                 <p>
                                     Lorem ipsum dolor sit, amet consectetur
                                     adipisicing elit. Officia, soluta!
@@ -107,7 +212,7 @@
             <section
                 id="the-firm"
                 class="section has-background-image"
-                style="background-image: url('./banner-2.jpg');"
+                style="background-image: url('./assets/images/banner-2.jpg')"
             >
                 <div class="container">
                     <div class="side-content">
@@ -156,7 +261,7 @@
                     <div class="auto-grid">
                         <div class="card flow">
                             <img
-                                src="./lawyers/lawyer-1.jpg"
+                                src="./assets/images/lawyers/lawyer-1.jpg"
                                 alt=""
                                 class="image"
                             />
@@ -168,21 +273,25 @@
 
                             <footer class="social">
                                 <a href="#" class="icon">
-                                    <i class="image fab fa-linkedin-in"></i>
+                                    <span
+                                        class="image fab fa-linkedin-in"
+                                    ></span>
                                 </a>
                                 <a href="#" class="icon">
-                                    <i class="image fab fa-facebook-f"></i>
+                                    <span
+                                        class="image fab fa-facebook-f"
+                                    ></span>
                                 </a>
 
                                 <a href="#" class="icon">
-                                    <i class="image fas fa-at"></i>
+                                    <span class="image fas fa-at"></span>
                                 </a>
                             </footer>
                         </div>
 
                         <div class="card flow">
                             <img
-                                src="./lawyers/lawyer-2.jpg"
+                                src="./assets/images/lawyers/lawyer-2.jpg"
                                 alt=""
                                 class="image"
                             />
@@ -194,21 +303,25 @@
 
                             <footer class="social">
                                 <a href="#" class="icon">
-                                    <i class="image fab fa-linkedin-in"></i>
+                                    <span
+                                        class="image fab fa-linkedin-in"
+                                    ></span>
                                 </a>
                                 <a href="#" class="icon">
-                                    <i class="image fab fa-facebook-f"></i>
+                                    <span
+                                        class="image fab fa-facebook-f"
+                                    ></span>
                                 </a>
 
                                 <a href="#" class="icon">
-                                    <i class="image fas fa-at"></i>
+                                    <span class="image fas fa-at"></span>
                                 </a>
                             </footer>
                         </div>
 
                         <div class="card flow">
                             <img
-                                src="./lawyers/lawyer-3.jpg"
+                                src="./assets/images/lawyers/lawyer-3.jpg"
                                 alt=""
                                 class="image"
                             />
@@ -220,21 +333,25 @@
 
                             <footer class="social">
                                 <a href="#" class="icon">
-                                    <i class="image fab fa-linkedin-in"></i>
+                                    <span
+                                        class="image fab fa-linkedin-in"
+                                    ></span>
                                 </a>
                                 <a href="#" class="icon">
-                                    <i class="image fab fa-facebook-f"></i>
+                                    <span
+                                        class="image fab fa-facebook-f"
+                                    ></span>
                                 </a>
 
                                 <a href="#" class="icon">
-                                    <i class="image fas fa-at"></i>
+                                    <span class="image fas fa-at"></span>
                                 </a>
                             </footer>
                         </div>
 
                         <div class="card flow">
                             <img
-                                src="./lawyers/lawyer-4.jpg"
+                                src="./assets/images/lawyers/lawyer-4.jpg"
                                 alt=""
                                 class="image"
                             />
@@ -246,14 +363,18 @@
 
                             <footer class="social">
                                 <a href="#" class="icon">
-                                    <i class="image fab fa-linkedin-in"></i>
+                                    <span
+                                        class="image fab fa-linkedin-in"
+                                    ></span>
                                 </a>
                                 <a href="#" class="icon">
-                                    <i class="image fab fa-facebook-f"></i>
+                                    <span
+                                        class="image fab fa-facebook-f"
+                                    ></span>
                                 </a>
 
                                 <a href="#" class="icon">
-                                    <i class="image fas fa-at"></i>
+                                    <span class="image fas fa-at"></span>
                                 </a>
                             </footer>
                         </div>
@@ -270,28 +391,34 @@
                             <ul class="social-list">
                                 <li class="item">
                                     <a href="#" class="icon">
-                                        <i class="image fas fa-phone-alt"></i>
+                                        <span
+                                            class="image fas fa-phone-alt"
+                                        ></span>
                                         +55 (11) 99999-9999
                                     </a>
                                 </li>
 
                                 <li class="item">
                                     <a href="#" class="icon">
-                                        <i class="image fab fa-linkedin-in"></i>
+                                        <span
+                                            class="image fab fa-linkedin-in"
+                                        ></span>
                                         Lawyers-In
                                     </a>
                                 </li>
 
                                 <li class="item">
                                     <a href="#" class="icon">
-                                        <i class="image fab fa-facebook-f"></i>
+                                        <span
+                                            class="image fab fa-facebook-f"
+                                        ></span>
                                         Lawyers
                                     </a>
                                 </li>
 
                                 <li class="item">
                                     <a href="#" class="icon">
-                                        <i class="image fas fa-at"></i>
+                                        <span class="image fas fa-at"></span>
                                         lawyers.contact@email.com
                                     </a>
                                 </li>
@@ -300,7 +427,7 @@
 
                         <div class="end">
                             <form method="POST" class="card -outline">
-                                <div class="flow" style="--flow: 1rem;">
+                                <div class="flow" style="--flow: 1rem">
                                     <h2 class="heading -small">
                                         Deixe uma mensagem para nós
                                     </h2>
@@ -342,7 +469,7 @@
                                         ></textarea>
                                     </div>
 
-                                    <button class="button">
+                                    <button type="button" class="button">
                                         Enviar mensagem
                                     </button>
                                 </div>
@@ -357,15 +484,15 @@
             <div class="container">
                 <div class="content">
                     <a href="#" class="icon">
-                        <i class="image fab fa-linkedin-in"></i>
+                        <span class="image fab fa-linkedin-in"></span>
                     </a>
 
                     <a href="#" class="icon">
-                        <i class="image fab fa-facebook-f"></i>
+                        <span class="image fab fa-facebook-f"></span>
                     </a>
 
                     <a href="#" class="icon">
-                        <i class="image fas fa-at"></i>
+                        <span class="image fas fa-at"></span>
                     </a>
                 </div>
 
@@ -377,86 +504,6 @@
             </div>
         </footer>
 
-        <script src="./script.js"></script>
-        <script>
-            const cardGrid = select('#services .auto-grid');
-
-            function card(icon, heading, p) {
-                const templateCard = select('#copy-card');
-                const card = templateCard.cloneNode(true);
-                const iconElement = templateCard.querySelector('.icon');
-                const headingElement = templateCard.querySelector('.heading');
-                const pElement = templateCard.querySelector('p');
-
-                card.id = '';
-                iconElement.classList.add(icon);
-                headingElement.innerHTML = heading;
-                pElement.innerHTML = p;
-
-                return card;
-            }
-
-            const cardContent = [
-                card(
-                    'fa-balance-scale-right',
-                    'Direito cívil e consumidor',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-balance-scale',
-                    'Direito comercial',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-restroom',
-                    'Direito de família',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-home',
-                    'Direito imobiliário',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-address-card',
-                    'Direito eleitoral',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-laptop',
-                    'Direito virtual',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-gavel',
-                    'Direito penal',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-building',
-                    'Direito do trabalho e previdenciário',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-brain',
-                    'Direito propriedade intelectual',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-dollar-sign',
-                    'Direito tributário',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-                card(
-                    'fa-balance-scale',
-                    'Direito do trabalho e previdenciário',
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, soluta!'
-                ),
-            ];
-
-            cardContent.forEach((content) => {
-                cardGrid.appendChild(content);
-            });
-        </script>
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
